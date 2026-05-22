@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DSO101 Practical Report — 02250359</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: "Segoe UI", system-ui, sans-serif;
+      background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 50%, #0f766e 100%);
+      color: #e2e8f0;
+      padding: 24px;
+    }
+    .card {
+      max-width: 1000px;
+      margin: 0 auto;
+      background: rgba(15, 23, 42, 0.94);
+      border: 1px solid rgba(148, 163, 184, 0.25);
+      border-radius: 14px;
+      padding: 28px 32px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.35);
+    }
+    h1 { font-size: 1.5rem; color: #f8fafc; }
+    .meta { color: #94a3b8; font-size: 0.8rem; margin: 4px 0 16px; }
+    h2 { font-size: 0.95rem; color: #5eead4; margin: 14px 0 8px; border-bottom: 1px solid rgba(94,234,212,0.25); padding-bottom: 4px; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.75rem; margin-bottom: 8px; }
+    th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid rgba(71,85,105,0.45); }
+    th { color: #94a3b8; width: 22%; }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+    .p {
+      background: rgba(30,41,59,0.6);
+      border-radius: 8px;
+      padding: 8px 10px;
+      border-left: 3px solid #14b8a6;
+      font-size: 0.7rem;
+      line-height: 1.4;
+      color: #cbd5e1;
+    }
+    .p strong { color: #f1f5f9; }
+    .badge { background: #0d9488; color: #fff; font-size: 0.6rem; padding: 1px 5px; border-radius: 3px; margin-right: 4px; }
+    .footer { margin-top: 14px; font-size: 0.68rem; color: #64748b; text-align: center; }
+    ul { margin: 6px 0 0 16px; font-size: 0.72rem; color: #cbd5e1; line-height: 1.45; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>DSO101 — Consolidated Practical Report</h1>
+    <p class="meta">Norzin Wangmo · 02250359 · 8 weekly practicals · May 2026</p>
+
+    <h2>Student information</h2>
+    <table>
+      <tr><th>Name</th><td>Norzin Wangmo</td><th>Module</th><td>DSO101 CI/CD</td></tr>
+      <tr><th>Student ID</th><td>02250359</td><th>Practicals</th><td>8 (weekly class reports)</td></tr>
+      <tr><th>Assignments</th><td colspan="3">4 separate graded assignments (see DSO101 Works repo)</td></tr>
+    </table>
+
+    <h2>All 8 weekly practicals</h2>
+    <div class="grid">
+      <div class="p"><span class="badge">P1</span><strong>Docker &amp; containerize web app</strong><br/>Dockerfiles, Docker Hub, Todo frontend/backend images.</div>
+      <div class="p"><span class="badge">P2</span><strong>Docker Compose multi-container</strong><br/>Services, networks, volumes; 3-tier Todo architecture.</div>
+      <div class="p"><span class="badge">P3</span><strong>Image optimization &amp; security</strong><br/>linux/amd64, .dockerignore, env-based secrets.</div>
+      <div class="p"><span class="badge">P4</span><strong>Jenkins setup &amp; basic CI/CD</strong><br/>Install Jenkins, GitHub SCM, credentials, first pipeline.</div>
+      <div class="p"><span class="badge">P5</span><strong>Declarative Pipeline</strong><br/>Install → build → test → Docker build → push.</div>
+      <div class="p"><span class="badge">P6</span><strong>Tools &amp; registry integration</strong><br/>npm, Jest/JUnit, Docker Hub in Jenkins.</div>
+      <div class="p"><span class="badge">P7</span><strong>Shared library patterns</strong><br/>Reusable pipeline stages; pipeline-as-code.</div>
+      <div class="p"><span class="badge">P8</span><strong>GitHub Actions &amp; deploy</strong><br/>Actions workflow, Render hook, static site CD.</div>
+    </div>
+
+    <h2>Module progression</h2>
+    <ul>
+      <li><strong>P1–P3:</strong> Docker foundations (containerize → compose → optimize)</li>
+      <li><strong>P4–P7:</strong> Jenkins CI/CD (setup → pipeline → integrations → reuse)</li>
+      <li><strong>P8:</strong> GitHub Actions and cloud deployment</li>
+    </ul>
+
+    <h2>Repository</h2>
+    <table>
+      <tr><th>Per practical</th><td>Practicals/Practical_N/README.md + Reflection.md</td></tr>
+      <tr><th>Master report</th><td>DSO101_Practical_Report.md</td></tr>
+      <tr><th>Coursework</th><td>NorzinWangmo_02250359_DSO101_Works (4 assignments)</td></tr>
+    </table>
+
+    <p class="footer">8 weekly practicals per DSO101 module descriptor · Generated from README + Reflection in each folder</p>
+  </div>
+</body>
+</html>

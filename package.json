@@ -1,0 +1,22 @@
+{
+  "name": "02250359_dso101_practical_reports",
+  "version": "1.0.0",
+  "description": "**Student:** Norzin Wangmo   **Student ID:** 02250359   **Module:** DSO101 — Continuous Integration and Continuous Deployment",
+  "main": "index.js",
+  "scripts": {
+    "screenshot": "node scripts/capture-screenshot.mjs",
+    "postinstall": "playwright install chromium"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/norzin-wangmo/02250359_DSO101_Practical_Reports.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/norzin-wangmo/02250359_DSO101_Practical_Reports/issues"
+  },
+  "homepage": "https://github.com/norzin-wangmo/02250359_DSO101_Practical_Reports#readme"
+}
